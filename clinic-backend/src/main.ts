@@ -8,7 +8,7 @@ async function bootstrap() {
   
   // 🔧 ENHANCED: Specific CORS with detailed error messages
   app.enableCors({
-    origin: ['http://localhost:3000', 'http://192.168.1.6:3000', 'https://hospital-management-system-6o9bsddpa.vercel.app],
+    origin: ['http://localhost:3000', 'http://192.168.1.6:3000', 'https://hospital-management-system-6o9bsddpa.vercel.app'],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
